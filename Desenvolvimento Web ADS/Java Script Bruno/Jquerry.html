@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+
+
+
+<head>
+<meta charset="utf-8">
+<title>Introdução ao JQuery</title>
+</head>
+
+
+
+<body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+</script>
+
+
+
+<p id="p1"> Teste 1</p>
+<p class='negrito'> Teste 2</p>
+<p class='negrito'> Teste 3</p>
+<div> Teste 1</div>
+
+
+
+<script>
+
+
+$(document).ready(function () {​​
+
+	console.log($("p"));
+	$("p").attr("style", "background-color:blue;color:white");
+
+}​​);
+
+</script>
+</body>
+
+
+
+</html>

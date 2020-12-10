@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>JavaScript</title>
+		<meta charset="utf-8">
+		<meta name="author" content="Dhionathan Lanzoni Jobim">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	</head>
+
+	<script type="text/javascript">
+
+		
+var data = new Date();
+
+
+var dia = data.getDate();          
+var dia_semana = data.getDay();            
+var mes = data.getMonth();                   
+var ano = data.getFullYear();      
+var hora = data.getHours();        
+var min = data.getMinutes();
+switch(dia_semana) {
+			case 0:
+			dia_semana = "Domingo"
+				break;
+			case 1:
+			dia_semana = "Segunda"
+				break;
+			case 2:
+			dia_semana = "Terça"
+				break;
+			case 3:
+			dia_semana = "Quarta"
+				break;
+			case 4:
+			dia_semana = "Quinta"
+				break;
+			case 5:
+			dia_semana = "Sexta"
+				break;
+			case 6:
+			dia_semana = "Sábado"
+				break;
+			
+		}        
+
+
+
+var valor_total_data = dia + '/' + (mes+1) + '/' + ano;
+var valor_total_hora = hora + ':' + min;
+
+
+console.log(dia_semana + ' - ' + valor_total_data +  ' - ' +  valor_total_hora);
+
+// Estrtura de Repetição
+ 
+ var vetor = new Array();
+
+ for(var i=15; i<25;i++){
+ 	vetor.push(i)
+ }
+
+		
+
+		
+
+		
+
+	</script>
+
+
+	<body>
+
+		<h2>JavaScript</h2>
+
+	</body>
+</html>

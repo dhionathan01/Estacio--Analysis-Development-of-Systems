@@ -1,0 +1,94 @@
+
+		body{
+			background-color:black;
+			background="1.png";
+			background-position:center;
+			
+
+
+
+		
+		}
+
+		label {
+			color: #f1f;
+			font-size:14px;
+			
+		}
+
+		input{
+			height: 30px;
+			width: 150px;
+			border: 2px solid blue;
+			border-style:inset;
+		
+		}
+
+        *{
+			font-family: Verdana, Geneva, Tahoma, sans-serif;
+			color: white;
+		 } 
+		
+		h2{
+			color:red;			
+		}
+
+		.obrigatorio{
+			text-decoration: underline;
+			
+		}
+
+		#titulo{
+			
+			color:blue;
+		
+		}
+		
+		ul{
+
+			width: 300px;
+			height:300px;
+			background-color:#4D054D;
+			color:black;
+
+
+		}
+
+		ol{
+			width:300px;
+			height:300px;
+			background-color:#4D054D;
+			color:black;
+		}
+
+		button{
+			cursor: pointer;
+		}
+
+		table *{
+			border-style: solid;
+			background-color:black;
+			color:blue;
+		}
+
+		dl{
+			width:300px;
+			height:600px;
+			background-color:#4D054D;
+			color:black;
+		}
+
+		.b{
+			color:black;
+		}
+
+		
+
+
+
+		
+		
+
+
+
+

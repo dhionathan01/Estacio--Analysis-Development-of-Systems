@@ -1,0 +1,17 @@
+[
+						  {"dia_semana":"Segunda",
+						   "horario":"18:55 - 21:40",
+						   "disciplina":"Banco de Dados"},
+						  {"dia_semana":"Terça",
+						   "horario":"18:55 - 21:40",
+						   "disciplina":"Python"},
+						  {"dia_semana":"Quarta",
+						   "horario":"18:55 - 21:40",
+						   "disciplina":"Desenvolvimento Web"},
+						  {"dia_semana":"Quinta",
+						   "horario":"18:55 - 21:40",
+						   "disciplina":"Computação em Nuvem"},
+						   {"dia_semana":"Sexta",
+						   "horario":"18:55 - 21:40",
+						   "disciplina":"Folga"}
+						]

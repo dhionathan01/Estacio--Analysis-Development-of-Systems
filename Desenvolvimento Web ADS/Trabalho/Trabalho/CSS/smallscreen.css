@@ -1,0 +1,63 @@
+@media screen and (max-width: 600px) {
+    .obrigatorio {
+        color: #9D13ED;
+    }
+    input{
+    	border-radius: 3px;
+    	border:ridge black;
+    }
+
+
+ 	.tablet{
+ 		border-radius: 10px;
+ 		float: none;
+		width: 100%;
+		display: inline-block;
+		display: none;
+
+    }
+	.form{
+		 border-radius: 10px;
+ 		 float: none;
+ 		 width: 100%;
+ 		 display: inline-block;
+
+    }
+
+
+    
+    }
+
+
+    @media screen and (min-width: 600px) {
+
+    	.oculte{
+    		display:none;
+    	}
+
+    }
+
+    @media screen and (max-width: 800px){
+        .pg_inicial2{
+    margin: 10px;
+    background-color: white;
+    width: auto;
+    border-radius: 20px;
+    padding: 10px;
+    display: inline;
+
+}
+    }
+
+
+    @media screen and (max-width: 800px){
+        .pg_inicial1{
+    margin: 10px;
+    background-color: white;
+    width: auto;
+    border-radius: 20px;
+    padding: 10px;
+    display: inline;
+
+}
+    }

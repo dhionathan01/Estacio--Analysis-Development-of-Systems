@@ -1,0 +1,31 @@
+@media print {
+	fieldset{
+		display: none;
+	}
+
+	.oculte{
+		display: none;
+
+	}
+	.menuo{
+		display: none;
+	}
+
+	img{
+	display: none;
+	}
+
+	header{
+		display: none;
+	}
+
+	footer{
+		display: none;
+	}
+
+	span{
+		display: inline-block;
+	}
+
+}
+

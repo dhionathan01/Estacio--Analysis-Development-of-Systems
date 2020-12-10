@@ -1,0 +1,242 @@
+<!doctype html>
+
+<html lang="pt-br">
+	<head> 
+		<title>Formulários</title>
+		<meta name="author" content="Dhionathan Lanzoni Jobim">
+		<meta charset="utf-8">
+	</head>
+
+	<link href="css/style.css" type="text/css" rel="stylesheet">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+ 
+	
+	 
+	<body background="1.png" background-position="">
+		
+	
+		<h2 id='titulo'>Formulário de cadastro de Aluno</h2>
+		<div id="container-imagem"></div>
+		
+		<form action="#" method="POST">
+			<label for="nome" class="obrigatorio" >Nome:</label> 
+			<input type="text" class="b" id="nome" name="nome" size="50" maxlength="100"> <BR><BR>
+			
+			<label for="email" class="obrigatorio">Email:</label> <input class="b" type="email" id="email"  name="email" placeholder="email@dom.com"> <BR><BR>
+			
+			<label for="data"  class="obrigatorio">Data de Nascimento:</label> <input type="date"  id="data" name="data_nascimento"> <BR><BR>
+			
+			<label for="matricula" class="obrigatorio">Número Matricula:</label> <input type="number" class="b"  id="matricula" min="0" name="matricula"> <BR><BR>
+			
+			<label for="celular">Celular:</label> <input class="b" name="celular" id="celular"> <BR><BR>
+			
+			<label for="endereco">Endereço:</label> <input type="text" class="b" id="endereco" name="endereco"> <BR><BR>
+			
+			<label for="cpf">CPF</label><input type="text" class="b" id="cpf" name="CPF"> <BR><BR>
+
+			<label for="senha"> Senha:</label> <input type="password" class="b" id="senha" name="senha"> <BR><BR>
+			
+			<label for="sexo">Sexo</label>
+				
+				  <input type="radio" name="sexo" id="masculino"    value="M"> <label for="masculino">Masculino</label>
+				  <input type="radio" name="sexo" id="feminino"     value="F"> <label for="feminino">Feminino</label>
+				  <input type="radio" name="sexo" id="naodeclarado" value="N"> <label for="naodeclarado">Não Declarar</label>
+			 <BR><BR>
+			
+			Curso: <select class="b" name="curso">
+				    <option class="b" value="">Selecione o seu curso...</option>
+				    <option class="b" value="ADM">Administração.</option>
+					<option class="b" value="ADS">Análise e Desenvolvimento de Sistemas.</option>
+					<option class="b" value="CC">Ciências Contábeis.</option>
+					<option class="b" value="CE">Comércio Exterior.</option>
+					<option class="b" value="DM">Design de Moda.</option>
+					<option class="b" value="DG">Design Gráfico.</option>
+					<option class="b" value="DR">Direito.</option>
+					<option class="b" value="EF">Educação Física.</option>
+					<option class="b" value="REDES">Redes</option>
+			       </select>
+			       
+			<BR><BR>
+
+			Períodos Matriculado: <input type="checkbox" name="periodo" value="1"> 1
+					  			  <input type="checkbox" name="periodo" value="2"> 2
+								  <input type="checkbox" name="periodo" value="3"> 3
+								  <input type="checkbox" name="periodo" value="4"> 4
+								  <input type="checkbox" name="periodo" value="5"> 5
+			<BR><BR>
+			
+			Deixe o seu comentário: <BR>
+				<textarea class="b" name="comentario" cols="50" rows="10"></textarea>
+				<br>
+				<button style="background-color:blue; color:black" >enviar</button>
+
+
+		</form>
+		
+		<br>
+	
+	
+	
+	    <h2 style="text-decoration: underline; color:#46D4C6">Lista Não Ordenada</h2>
+		<ul>
+			<li>Janeiro</li>
+			<li>Fevereiro</li>
+			<li>Março</li>
+			<li>Abril</li>
+			<li>Maio</li>
+			<li>Junho</li>
+			<li>Julho</li>
+			<li>Agosto</li>
+			<li>Setembro</li>
+			<li>Outubro</li>
+			<li>Novembro</li>
+			<li>Dezembro</li>
+		</ul>
+		
+		<h2 style="text-decoration: underline; color:#46D4C6">Lista Ordenada</h2>
+		<ol>
+			<li>Janeiro</li>
+			<li>Fevereiro</li>
+			<li>Março</li>
+			<li>Abril</li>
+			<li>Maio</li>
+			<li>Junho</li>
+			<li>Julho</li>
+			<li>Agosto</li>
+			<li>Setembro</li>
+			<li>Outubro</li>
+			<li>Novembro</li>
+			<li>Dezembro</li>
+		</ol>
+	
+	    <h2 style="text-decoration: underline; color:#46D4C6">Lista de Feriados de 2020</h2>
+		
+		<dl>
+			<dt>Janeiro</dt>
+			<dd>Confraternização Universal</dd>
+						
+			<dt>Fevereiro</dt>
+			<dd>Carnaval</dd>
+			
+			<dt>Abril</dt>
+			<dd>Paixão de Cristo</dd>
+			<dd>Tiradentes</dd>
+			
+			<dt>Maio</dt>
+			<dd>Dia do Trabalho</dd>
+			
+			<dt>Junho</dt>
+			<dd>Corpus Christi</dd>
+            
+            <dt>Setembro</dt>
+			<dd>Independência do Brasil</dd>
+			
+            <dt>Outubro</dt>
+			<dd>Nossa Sr.a Aparecida - Padroeira do Brasil</dd>
+            
+            <dt>Novembro</dt>
+			<dd>Finados</dd>
+            <dd>Proclamação da República</dd>
+            
+            <dt>Dezembro</dt>
+			<dd>Natal</dd>
+            
+		</dl>
+
+	
+		
+	
+		<BR>
+		
+		<h2>Tabela</h2>
+		
+		<table class="table">
+		   <caption> Feriados de 2020</caption>
+			<thead>
+			  <tr> 
+				 <th>Data</th>
+				 <th>Dia da Semana</th>
+				 <th>Feriado</th>
+			  </tr>
+			</thead>
+			
+			<tbody>
+				<tr>					
+					<td>01/01/2020</td>
+					<td>quarta-feira</td>
+					<td>Confraternização Universal</td>
+				</tr>
+				<tr>
+					<td>24/02/2020</td>
+					<td>segunda-feira</td>
+					<td rowspan="2">Carnaval</td>
+				</tr>
+				<tr>
+					<td>25/02/2020</td>
+					<td>terça-feira</td>
+					
+				</tr>
+				<tr>
+					<td>10/04/2020</td>
+					<td>sexta-feira</td>
+					<td>Paixão de Cristo</td>
+				</tr>
+				<tr>
+					<td>21/04/2020</td>
+					<td>terça-feira</td>
+					<td>Tiradentes</td>
+				</tr>
+				<tr>
+					<td>01/05/2020</td>
+					<td>sexta-feira</td>
+					<td>Dia do Trabalho</td>
+				</tr>
+				<tr>
+					<td>11/06/2020</td>
+					<td>quinta-feira</td>
+					<td>Corpus Christi</td>
+				</tr>
+				<tr>
+					<td>07/09/2020</td>
+					<td>segunda-feira</td>
+					<td>Independência do Brasil</td>
+				</tr>
+				<tr>
+					<td>12/10/2020</td>
+					<td>segunda-feira</td>
+					<td>Nossa Sr.a Aparecida - Padroeira do Brasil</td>
+				</tr>
+				<tr>
+					<td>02/11/2020</td>
+					<td>segunda-feira</td>
+					<td>Finados</td>
+				</tr>
+				<tr>
+					<td>15/11/2020</td>
+					<td>domingo</td>
+					<td>Proclamação da República</td>
+				</tr>
+				<tr>
+					<td>25/12/2020</td>
+					<td>sexta-feira</td>
+					<td>Natal</td>
+				</tr>
+				
+				<tr>
+					<td colspan="2" align=end>Total</td>					
+					<td>12</td>
+				</tr>
+			</tbody>		
+		</table>
+		
+		
+		
+	<BR><BR><BR><BR><BR><BR>
+	</body>
+
+</html>
+
+
+
+
+
