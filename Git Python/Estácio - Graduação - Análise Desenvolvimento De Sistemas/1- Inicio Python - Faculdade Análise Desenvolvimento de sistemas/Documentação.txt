@@ -1,5 +1,0 @@
-Aprendendo Básico de Python:
-
-* Entrada e saída de Dados]
-* Condicionais (if, else...)
-* Loop ( for, while...)
